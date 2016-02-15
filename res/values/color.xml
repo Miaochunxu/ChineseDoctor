@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_bag">#000000</color>
+	<color name="text_zhujiemian_left">#5e5757</color>
+	<color name="text_zhujiemian_left_big">#231815</color>
+	<color name="bule">#63B8FF</color>
+	<color name="red">#CD2626</color>
+</resources>

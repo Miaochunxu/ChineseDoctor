@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:background="#5a5f5a" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/menu_lines" />
+
+        <com.custom.view.CustomTextView
+            android:id="@+id/tv_main_topname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="中医学习助手"
+            android:textColor="#b6b7b7"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="49dp"
+        android:layout_marginTop="49dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_home" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/search" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:background="#5a5f5a"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_main_student_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/bg_bottom_one" />
+
+        <ImageView
+            android:id="@+id/img_main_student_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/bg_bottom_two_whlite" />
+
+        <ImageView
+            android:id="@+id/img_main_student_set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/bg_bottom_three_whlite" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_top_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bg_top" />
+
+    <FrameLayout
+        android:id="@+id/fg_main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_below="@+id/img_top_menu" >
+    </FrameLayout>
+
+</RelativeLayout>

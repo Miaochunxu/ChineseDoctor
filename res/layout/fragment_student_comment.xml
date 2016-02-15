@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv_student_comment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:listSelector="#00000000"
+        android:scrollbars="none" >
+    </ListView>
+
+    <com.custom.view.CustomTextView
+        android:id="@+id/textView1"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_textview"
+        android:gravity="center"
+        android:text="留 言"
+        android:textSize="20dp" />
+
+</LinearLayout>

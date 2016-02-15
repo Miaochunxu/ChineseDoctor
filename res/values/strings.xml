@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">中医助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="_zhanghao">账号：</string>
+    <string name="_password">密码：</string>
+    <string name="_login">登 录</string>
+    <string name="_cragress">注册</string>
+    <string name="_forgot_pasw">忘记密码</string>
+    <string name="_teacher"> 教师</string>
+    <string name="_student"> 学生</string>
+    <string name="_setusername">请输入账号</string>
+    <string name="_setpasw">请输入密码</string>
+
+</resources>
